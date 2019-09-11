@@ -246,3 +246,54 @@ footer ul {
 	border: 1px solid black;
 	margin-top: 30px;
 }
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+	html {
+		width: 90%;
+	}
+	body {
+		/* background-color: lightblue; */
+	}
+
+	.main-section-services {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-content: space-between;
+		height: 1200px;
+		margin-top: 20px;
+	}
+
+	.main-section-services div {
+		width: 100%;
+		border: 1px solid black;
+		background-color: whitesmoke;
+		font-size: 11px;
+		display: flex;
+		flex-flow: row wrap;
+		align-content: space-around;
+		height: 175px;
+		padding: 15px;
+	}
+
+	.services-footer {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		font-size: 11px;
+	}
+
+	.services-footer div {
+		width: 90%;
+		margin-top: 30px;
+	}
+
+	div.services-img-container {
+		width: 30%;
+	}
+
+}
